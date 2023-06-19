@@ -39,7 +39,7 @@ export default function About() {
 
     useEffect(() => {
         setSelect('About Me');
-    }, []);
+    }, [setSelect]);
 
     const { data, isLoading, error } = useQuery("stuff", () => {
         return axios({

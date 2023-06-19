@@ -40,7 +40,7 @@ export default function Contact() {
 
     useEffect(() => {
         setSelect('Contact Me');
-    }, []);
+    }, [setSelect]);
 
 
     const { data, isLoading, error } = useQuery("stuff", () => {

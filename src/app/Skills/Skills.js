@@ -37,7 +37,7 @@ export default function About() {
 
     useEffect(() => {
         setSelect('Skills');
-    }, []);
+    }, [setSelect]);
 
     const { data, isLoading, error } = useQuery("stuff", () => {
         return axios({

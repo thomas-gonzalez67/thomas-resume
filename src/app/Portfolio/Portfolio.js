@@ -38,7 +38,7 @@ export default function Portfolio() {
 
     useEffect(() => {
         setSelect('Portfolio');
-    }, []);
+    }, [setSelect]);
 
     const { data, isLoading, error } = useQuery("stuff", () => {
         return axios({

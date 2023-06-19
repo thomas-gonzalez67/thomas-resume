@@ -38,7 +38,7 @@ export default function Home() {
 
         useEffect(() => {
         setSelect('');
-    }, []);
+    }, [setSelect]);
 
     const { data, isLoading, error } = useQuery("stuff", () => {
         return axios({

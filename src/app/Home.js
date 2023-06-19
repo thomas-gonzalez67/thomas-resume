@@ -6,7 +6,6 @@ import react, { useState, useEffect } from 'react'
 import Sidebar from './Components/Sidebar'
 import Footer from "./Components/Footer"
 import Firsthalf from './Components/Firsthalf'
-import Link from 'next/Link'
 import jomas2 from './Components/Pictures/jomas2.png'
 import Image from 'next/legacy/image'
 import res from './Components/Pictures/res.png';

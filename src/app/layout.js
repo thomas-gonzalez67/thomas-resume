@@ -1,4 +1,3 @@
-"use client";
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { RecoilRoot } from 'recoil';
@@ -13,7 +12,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
     title: 'Thomas Gonzalez Resume',
-    description: 'A web developer portfolio and resume website made by Thomas Gonzalez. daiushd iau shdiuah sdiuah si udahs uidh',
+    description: 'A web developer portfolio and resume website made by Thomas Gonzalez.',
 }
 
 export default function RootLayout({ children }) {

@@ -9,13 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@reduxjs/toolkit": "^1.9.5",
     "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "dompurify": "^3.0.3",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
     "next": "13.4.2",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2"
+    "react-query": "^3.39.3",
+    "react-redux": "^8.0.7",
+    "react-responsive-carousel": "^3.2.23",
+    "read-more-react": "^1.0.10",
+    "recoil": "^0.7.7",
+    "recoil-persist": "^4.2.0",
+    "tailwindcss": "3.3.2",
+    "utils": "^0.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.2.1",
+    "@types/react": "18.2.6"
   }
 }

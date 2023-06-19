@@ -81,7 +81,7 @@ export default function Portfolio() {
                         My portfolio
                     </h1>
                     <div className=' font-semibold flex flex-col items-center text-gray-300 pb-20'>
-                        <div className='gray pb-4 pt-4 pl-4 pr-4'> Here is a list of some of the web aps I've made. Each one of these projects were made entirely by me and completely from scratch. With every new project I try to learn something new. Especially learning frameworks/tools that are in high demand in the world of professional development.  
+                        <div className='gray pb-4 pt-4 pl-4 pr-4'> Here is a list of some of the web aps I have made. Each one of these projects were made entirely by me and completely from scratch. With every new project I try to learn something new. Especially learning frameworks/tools that are in high demand in the world of professional development.  
                         </div>
                     </div>
 

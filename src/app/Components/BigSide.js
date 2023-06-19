@@ -27,6 +27,13 @@ const BigSide = () => {
     const [pic, setPic] = useState('pic')
     const [mobSide, setMobSide] = useRecoilState(mobState);
 
+        useEffect(() => {
+        axios.get(url)
+            .then((response) => {
+                setMenu(response.data)
+            });
+    }, [])
+
     const { data, isLoading, error } = useQuery("stuff", () => {
         return axios({
             url: endpoint,
@@ -41,12 +48,7 @@ const BigSide = () => {
     if (isLoading) return "Loading...";
     if (error) return <pre>{error.message}</pre>;
 
-    useEffect(() => {
-        axios.get(url)
-            .then((response) => {
-                setMenu(response.data)
-            });
-    }, [])
+
 
     return (
 

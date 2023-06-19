@@ -4,12 +4,12 @@ import axios from 'axios';
 import react, { useState, useEffect } from 'react'
 import DOMPurify from 'dompurify';
 import Link from 'next/link';
+import { sanitize, isSupported } from "isomorphic-dompurify";
 
 DOMPurify.setConfig({ ADD_ATTR: ['target'] });
 
 
 const Firsthalf = ({ title, description }) => {
-        const [des,setDes] = useState('loading...')
     const url = 'http://localhost/resume/wp-json/wp/v2/pages';
 
 

@@ -2,9 +2,10 @@
 import Image from 'next/image'
 import axios from 'axios';
 import react, { useState, useEffect } from 'react'
-import DOMPurify from 'dompurify';
 import Link from 'next/link';
-import { sanitize, isSupported } from "isomorphic-dompurify";
+import DOMPurify from 'isomorphic-dompurify';
+
+
 
 DOMPurify.setConfig({ ADD_ATTR: ['target'] });
 

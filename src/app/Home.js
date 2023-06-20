@@ -10,8 +10,10 @@ import jomas2 from './Components/Pictures/jomas2.png'
 import Image from 'next/legacy/image'
 import res from './Components/Pictures/res.png';
 import { useRecoilState} from 'recoil';
-import { mobState,selectState } from './Components/atoms'; const endpoint = 'http://localhost/resume/graphql/'
+import { mobState, selectState } from './Components/atoms'; 
 import resume from './Components/Pictures/resume.pdf';
+
+const endpoint = 'https://thomas-res-wordpress-d1dd47.ingress-earth.ewp.live/graphql/'
 
 
 const FILMS_QUERY = `{

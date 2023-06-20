@@ -11,7 +11,7 @@ DOMPurify.setConfig({ ADD_ATTR: ['target'] });
 
 
 const Firsthalf = ({ title, description }) => {
-    const url = 'http://localhost/resume/wp-json/wp/v2/pages';
+    const url = 'https://thomas-res-wordpress-d1dd47.ingress-earth.ewp.live/wp-json/wp/v2/pages';
 
 
 

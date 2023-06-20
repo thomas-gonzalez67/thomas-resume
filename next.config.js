@@ -13,10 +13,10 @@ module.exports = {
         formats: ['image/avif', 'image/webp'],
         remotePatterns: [
             {
-                protocol: 'http',
-                hostname: 'localhost',
+                protocol: 'https',
+                hostname: 'thomas-res-wordpress-d1dd47.ingress-earth.ewp.live',
                 port: '',
-                pathname: '/resume/wp-content/uploads/**',
+                pathname: '/wp-content/uploads/**',
             },
         ],
     },

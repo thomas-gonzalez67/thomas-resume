@@ -7,7 +7,7 @@ import { selectState ,mobState} from './atoms';
 import { useRecoilState } from 'recoil';
 import { QueryClient, QueryClientProvider, useQuery } from 'react-query'
 
-const endpoint = 'http://localhost/resume/graphql/'
+const endpoint = 'https://thomas-res-wordpress-d1dd47.ingress-earth.ewp.live/graphql/'
 
 const FILMS_QUERY = `{
             posts{
@@ -23,7 +23,7 @@ const FILMS_QUERY = `{
 const BigSide = () => {
     const [select, setSelect] = useRecoilState(selectState);
     const [menu, setMenu] = useState([])
-    const url = 'http://localhost/resume/wp-json/wp/v2/pages';
+    const url = 'https://thomas-res-wordpress-d1dd47.ingress-earth.ewp.live/wp-json/wp/v2/pages';
     const [pic, setPic] = useState('pic')
     const [mobSide, setMobSide] = useRecoilState(mobState);
 

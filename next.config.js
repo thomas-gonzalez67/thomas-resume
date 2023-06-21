@@ -4,7 +4,7 @@ module.exports = {
         return [
             {
                 source: 'https://thomas-res-wordpress-d1dd47.ingress-earth.ewp.live/**',
-                destination: 'https://api.example.com/:path*',
+                destination: 'https://thomas-resume.vercel.app/**',
             },
         ]
     },

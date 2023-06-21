@@ -1,5 +1,13 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
+    async rewrites() {
+        return [
+            {
+                source: '/api/:path*',
+                destination: 'https://thomas-res-wordpress-d1dd47.ingress-earth.ewp.live/**',
+            },
+        ]
+    },
     webpack: (config, options) =>
     {
         config.module.rules.push({

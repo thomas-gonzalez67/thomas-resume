@@ -1,13 +1,6 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-    async rewrites() {
-        return [
-            {
-                source: 'https://thomas-res-wordpress-d1dd47.ingress-earth.ewp.live/**',
-                destination: 'https://thomas-resume.vercel.app/**',
-            },
-        ]
-    },
+
     webpack: (config, options) =>
     {
         config.module.rules.push({

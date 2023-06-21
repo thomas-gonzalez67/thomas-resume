@@ -3,7 +3,7 @@ module.exports = {
     async rewrites() {
         return [
             {
-                source: 'https://thomas-resume.vercel.apphttps://thomas-res-wordpress-d1dd47.ingress-earth.ewp.live/**',
+                source: 'https://thomas-res-wordpress-d1dd47.ingress-earth.ewp.live/**',
                 destination: 'https://api.example.com/:path*',
             },
         ]

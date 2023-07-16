@@ -6,8 +6,9 @@
     "\\src\\app\\About%20Me",
     "\\src\\app\\Components",
     "\\src\\app\\Contact%20Me",
-    "\\src\\app\\Portfolio"
+    "\\src\\app\\Portfolio",
+    "\\src\\app\\Skills"
   ],
-  "SelectedNode": "\\src\\app\\Components\\Firsthalf.js",
+  "SelectedNode": "\\next.config.js",
   "PreviewInSolutionExplorer": false
 }

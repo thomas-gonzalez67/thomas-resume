@@ -41,20 +41,21 @@ const Sidebar = ({ pic }) => {
 
     function useMediaQueries() {
         const md = useMediaQuery("(min-width: 800px)");
+        const mw = useMediaQuery("(min-height: 600px)");
 
-        return md;
+        return [md, mw];
     }
 
     function ResponsiveComponent() {
         const md = useMediaQueries();
 
-        if (!md) {
+        if (!md[0] || !md[1]) {
             setShowSide(false);
             return <div onClick={() => setMobSide(!mobSide)} className='menuBar flex flex-col justify-between' ><div className={`bar ${!mobSide ? "bg-black" : ' bg-white'}`} /> <div className={`bar ${!mobSide ? "bg-black" : ' bg-white'}`} /> <div className={`bar ${!mobSide ? "bg-black" : ' bg-white'}`} /></div>
             
         }
 
-        if (md) {
+        if (md[0] && md[1]) {
             setShowSide(true);
             setMobSide(false);
         }

@@ -57,18 +57,19 @@ export default function ContactMe(){
           <h1 className='text-center font-mono font-semibold  text-2xl'>Contact Me</h1>
           <div className='flex flex-col'>
               <label>Name</label>
-              <input className='text-black pl-2 border-solid border-black rounded-md border-opacity-75 border-2' value={name} onChange={(e)=>setName(e.target.value)} type="text" name="user_name" />
+              <input maxlength="100" className='text-black pl-2 border-solid border-black rounded-md border-opacity-75 border-2' value={name} onChange={(e)=>setName(e.target.value)} type="text" name="user_name" />
           </div>
           <div className='flex flex-col'>
               <label>Email</label>
-              <input className='text-black pl-2 border-solid border-black rounded-md border-opacity-75 border-2' value={email} onChange={(e)=>setEmail(e.target.value)} type="email" name="user_email" />
+                  <input maxlength="100"  className='text-black pl-2 border-solid border-black rounded-md border-opacity-75 border-2' value={email} onChange={(e)=>setEmail(e.target.value)} type="email" name="user_email" />
           </div>
           <div className='flex flex-col'>
-              <label>Message</label>
-              <textarea className='text-black pl-2 border-solid border-black rounded-md border-opacity-75 border-2'value={message} onChange={(e)=>setMessage(e.target.value)} name="message" />
+                  <label>Message</label>
+                  <textarea maxlength="300"  className=' text-black h-32 pl-2 border-solid pt-1 border-black rounded-md border-opacity-75 border-2' value={message} onChange={(e) => setMessage(e.target.value)} name="message" />
+                  <input onSubmit={sendEmail} className='hover:bg-gray-300 hover:text-black bg-gray-600 w-30 h-10 mt-2 rounded-md ' type="submit" value="Send" />
           </div>
 
-      <input onSubmit={sendEmail}  className='hover:bg-gray-300 hover:text-black bg-gray-600  w-20 h-10 rounded-md ' type="submit" value="Send" />
+      
     </form>
 </>
   );

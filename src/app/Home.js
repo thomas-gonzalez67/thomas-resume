@@ -13,7 +13,7 @@ import { useRecoilState} from 'recoil';
 import { mobState, selectState } from './Components/atoms'; 
 import resume from './Components/Pictures/resume.pdf';
 
-const endpoint = 'http://thomasreswordpress.com/graphql/'
+const endpoint = 'https://irp.iml.mybluehost.me/graphql/'
 
 
 const FILMS_QUERY = `{

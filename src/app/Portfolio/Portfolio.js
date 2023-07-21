@@ -10,7 +10,7 @@ import { useRecoilValue, useRecoilState } from 'recoil';
 import { mobState, selectState } from '../Components/atoms'; 
 
 
-const endpoint = 'http://thomasreswordpress.com/graphql/'
+const endpoint = 'https://irp.iml.mybluehost.me/graphql/'
 
 
 

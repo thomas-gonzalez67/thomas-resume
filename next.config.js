@@ -15,7 +15,7 @@ module.exports = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'http://thomasreswordpress.com',
+                hostname: 'https://irp.iml.mybluehost.me/',
                 port: '',
                 pathname: '/wp-content/uploads/**',
             },

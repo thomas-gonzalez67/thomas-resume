@@ -11,7 +11,7 @@ DOMPurify.setConfig({ ADD_ATTR: ['target'] });
 
 
 const Firsthalf = ({ title, description }) => {
-    const url = 'http://thomasreswordpress.com/wp-json/wp/v2/pages';
+    const url = 'https://irp.iml.mybluehost.me/wp-json/wp/v2/pages';
 
 
 

@@ -15,7 +15,7 @@ module.exports = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'thomas-res-wordpress-d1dd47.ingress-earth.ewp.live',
+                hostname: 'http://thomasreswordpress.com',
                 port: '',
                 pathname: '/wp-content/uploads/**',
             },

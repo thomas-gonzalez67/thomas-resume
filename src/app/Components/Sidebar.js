@@ -12,7 +12,7 @@ import BigSide from './BigSide'
 
 const Sidebar = ({ pic }) => {
     const [menu, setMenu] = useState([])
-    const url = 'https://thomas-res-wordpress-d1dd47.ingress-earth.ewp.live/wp-json/wp/v2/pages';
+    const url = 'http://thomasreswordpress.com/wp-json/wp/v2/pages';
     const [select, setSelect] = useRecoilState(selectState);
     const [showSide, setShowSide] = useState(sideState);
     const [mobSide, setMobSide] = useRecoilState(mobState);

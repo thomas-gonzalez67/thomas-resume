@@ -10,7 +10,7 @@ import { useRecoilState, useRecoilValue } from 'recoil';
 import { mobState, selectState } from '../Components/atoms'; 
 
 
-const endpoint = 'https://thomas-res-wordpress-d1dd47.ingress-earth.ewp.live/graphql/'
+const endpoint = 'http://thomasreswordpress.com/graphql/'
 
 
 const FILMS_QUERY = `{

@@ -6,7 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import Carousel from "react-responsive-carousel/lib/js/components/Carousel/index";
 
 
-const endpoint = 'https://irp.iml.mybluehost.me/graphql/'
+const endpoint = 'https://thomasreswordpress.com/graphql/'
 const FILMS_QUERY = `{
   mediaItems{
     edges{

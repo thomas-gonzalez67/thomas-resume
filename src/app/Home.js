@@ -49,7 +49,7 @@ export default function Home() {
             data: {
                 query: FILMS_QUERY
             }
-        }).then(response => { setPosts(response.data.data.posts); setPic(response.data.data.posts.edges[4].node.content); setTitle(response.data.data.posts.edges[5].node.title); setDescription(response.data.data.posts.edges[5].node.content);  });
+        }).then(response => { setPosts(response.data.data.posts); setPic(response.data.data.posts.edges[6].node.content); setTitle(response.data.data.posts.edges[5].node.title); setDescription(response.data.data.posts.edges[5].node.content);  });
         console.log(posts)
 
     });

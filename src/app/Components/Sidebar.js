@@ -70,7 +70,7 @@ const Sidebar = ({ pic }) => {
                     <Link href="/">
                         <div onClick={() => setSelect('')} className={`  h-72   mb-20 text-center flex flex-col justify-around ${select == ("") ? "bg-gray-700" : 'pfpPic'}`}>
                             <div className=' pl-2 pr-2 ' dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(pic) }} />
-                            <div className='text-gray-400'>Thomas Gonzalez</div>
+                            <div className='text-gray-400'>Tomas Gonzalez</div>
                             <div className='text-gray-400'>Web Developer</div>
                         </div>
                     </Link>
